@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-
+#include "record_sales.hpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    char *file = enter_sales();
+    total_sales(file);
     return 0;
 }
